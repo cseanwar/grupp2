@@ -35,5 +35,3 @@ with tarfile.open(f"{zipped_file}.tar.gz", "w:gz") as tar:
 # To delete a file
 if os.path.exists(file_name):
      os.remove(file_name)
-# else:
-#     print("The file does not exist")
